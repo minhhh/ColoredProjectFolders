@@ -6,6 +6,8 @@ ColoredProjectFolders is a simple plugin that color some special folders in the 
 
 There's only 1 script `Assets/ColoredProjectFolder/Editor/ColoredProjectFolder.cs`. You can modify it to add more hard-coded folder names. You can add or modify folder icons in the same folders. This could be made into a customizable setting, but I feel the usage is the same as just modifying the script directly.
 
+![screenshot](/imgs/screenshot.png)
+
 ## Setup
 
 1. Clone this repo and use it as a base for your new project
