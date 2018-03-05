@@ -21,6 +21,12 @@ There's only 1 script `Assets/ColoredProjectFolder/Editor/ColoredProjectFolder.c
 
 ## Changelog
 
+**0.0.2**
+
+* Fixes
+    * Fix incorrect plugin foldername
+    * Support 5.4.3f1
+
 **0.0.1**
 
 * Initial commit

@@ -1,6 +1,6 @@
 {
   "name": "ColoredProjectFolders",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Give colors to folders in Project View",
   "main": "index.js",
   "author": "Ha.Minh",
