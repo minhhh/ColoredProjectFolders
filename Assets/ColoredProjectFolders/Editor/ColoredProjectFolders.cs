@@ -3,7 +3,7 @@ using UnityEditor;
 using System.IO;
 
 [InitializeOnLoad]
-public class ColoredProjectFolder
+public class ColoredProjectFolders
 {
     static Texture2D iconEditorFolder;
     static Texture2D iconPluginsFolder;
@@ -11,14 +11,14 @@ public class ColoredProjectFolder
     static Texture2D iconPrefabsFolder;
     static Texture2D iconScriptsFolder;
 
-    static ColoredProjectFolder ()
+    static ColoredProjectFolders ()
     {
         EditorApplication.projectWindowItemOnGUI += OnProjectWindowItemOnGUI;
-        iconEditorFolder = (Texture2D)AssetDatabase.LoadAssetAtPath ("Assets/ColoredProjectFolder/Editor/icon_editor.png", typeof(Texture2D));
-        iconPluginsFolder = (Texture2D)AssetDatabase.LoadAssetAtPath ("Assets/ColoredProjectFolder/Editor/icon_plugins.png", typeof(Texture2D));
-        iconResourcesFolder = (Texture2D)AssetDatabase.LoadAssetAtPath ("Assets/ColoredProjectFolder/Editor/icon_resources.png", typeof(Texture2D));
-        iconPrefabsFolder = (Texture2D)AssetDatabase.LoadAssetAtPath ("Assets/ColoredProjectFolder/Editor/icon_prefabs.png", typeof(Texture2D));
-        iconScriptsFolder = (Texture2D)AssetDatabase.LoadAssetAtPath ("Assets/ColoredProjectFolder/Editor/icon_scripts.png", typeof(Texture2D));
+        iconEditorFolder = (Texture2D)AssetDatabase.LoadAssetAtPath ("Assets/ColoredProjectFolders/Editor/icon_editor.png", typeof(Texture2D));
+        iconPluginsFolder = (Texture2D)AssetDatabase.LoadAssetAtPath ("Assets/ColoredProjectFolders/Editor/icon_plugins.png", typeof(Texture2D));
+        iconResourcesFolder = (Texture2D)AssetDatabase.LoadAssetAtPath ("Assets/ColoredProjectFolders/Editor/icon_resources.png", typeof(Texture2D));
+        iconPrefabsFolder = (Texture2D)AssetDatabase.LoadAssetAtPath ("Assets/ColoredProjectFolders/Editor/icon_prefabs.png", typeof(Texture2D));
+        iconScriptsFolder = (Texture2D)AssetDatabase.LoadAssetAtPath ("Assets/ColoredProjectFolders/Editor/icon_scripts.png", typeof(Texture2D));
     }
 
     private static void OnProjectWindowItemOnGUI (string guid, Rect selectionRect)
